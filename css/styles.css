@@ -23,6 +23,10 @@ h1 {
   padding-right: 10px;
 }
 
+.tindog-logo {
+margin-right: 10px;
+}
+
 .navbar {
   padding-bottom: 4.5rem;
 }
@@ -93,9 +97,10 @@ h2{
 }
 
 .testimonials-image {
-  width: 10%;
+  width: 18%;
   border-radius: 100%;
   margin: 20px;
+  object-fit: cover;
 }
 
 .press{
@@ -130,4 +135,38 @@ h2{
     position: static;
     transform: rotate(0);
   }
+}
+
+/* Call to Action */
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+  color: #fff;
+}
+
+.sub {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+/* Footer */
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 4% 10%;
+}
+
+.footer-icons{
+  margin: 15px 5px;
+  cursor: pointer;
+}
+
+.footer-sub {
+  font-size: 0.8rem;
+  color: #707070;
 }
